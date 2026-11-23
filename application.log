@@ -1,15 +1,15 @@
-2026-11-23 10:50:16 - [INFO] - Inventory demonstration operation started.
-2026-11-23 10:50:16 - [DEBUG] - calculate_total_price called with price=50000.0, quantity=2
-2026-11-23 10:50:16 - [INFO] - Total price calculated successfully: Price ₹50000.00 × 2 = ₹100000.00
-2026-11-23 10:50:16 - [DEBUG] - apply_discount called with total=100000.0, discount_percent=10.0
-2026-11-23 10:50:16 - [INFO] - Discount applied successfully: Total ₹100000.00 with 10.0% discount = Final ₹90000.00
-2026-11-23 10:50:16 - [DEBUG] - check_stock called with available_stock=5, requested_quantity=2
-2026-11-23 10:50:16 - [INFO] - Stock check PASSED: Requested 2 units available (In stock: 5).
-2026-11-23 10:50:16 - [DEBUG] - check_stock called with available_stock=3, requested_quantity=10
-2026-11-23 10:50:16 - [WARNING] - Stock check FAILED: Requested 10 exceeds available stock 3.
-2026-11-23 10:50:16 - [DEBUG] - calculate_total_price called with price=-500, quantity=2
-2026-11-23 10:50:16 - [ERROR] - ValueError in calculate_total_price: Price cannot be negative, got -500.
-2026-11-23 10:50:16 - [DEBUG] - apply_discount called with total=1000, discount_percent=150
-2026-11-23 10:50:16 - [ERROR] - ValueError in apply_discount: Discount percentage must be between 0 and 100 inclusive, got 150.
-2026-11-23 10:50:16 - [DEBUG] - calculate_total_price called with price=True, quantity=5
-2026-11-23 10:50:16 - [ERROR] - TypeError in calculate_total_price: Price and quantity must not be boolean values.
+2026-11-23 11:09:28 - [INFO] - Inventory demonstration operation started.
+2026-11-23 11:09:28 - [DEBUG] - calculate_total_price called with price=50000.0, quantity=2
+2026-11-23 11:09:28 - [INFO] - Total price calculated successfully: Price ₹50000.00 × 2 = ₹100000.00
+2026-11-23 11:09:28 - [DEBUG] - apply_discount called with total=100000.0, discount_percent=10.0
+2026-11-23 11:09:28 - [INFO] - Discount applied successfully: Total ₹100000.00 with 10.0% discount = Final ₹90000.00
+2026-11-23 11:09:28 - [DEBUG] - check_stock called with available_stock=5, requested_quantity=2
+2026-11-23 11:09:28 - [INFO] - Stock check PASSED: Requested 2 units available (In stock: 5).
+2026-11-23 11:09:28 - [DEBUG] - check_stock called with available_stock=3, requested_quantity=10
+2026-11-23 11:09:28 - [WARNING] - Stock check FAILED: Requested 10 exceeds available stock 3.
+2026-11-23 11:09:28 - [DEBUG] - calculate_total_price called with price=-500, quantity=2
+2026-11-23 11:09:28 - [ERROR] - ValueError in calculate_total_price: Price cannot be negative, got -500.
+2026-11-23 11:09:28 - [DEBUG] - apply_discount called with total=1000, discount_percent=150
+2026-11-23 11:09:28 - [ERROR] - ValueError in apply_discount: Discount percentage must be between 0 and 100 inclusive, got 150.
+2026-11-23 11:09:28 - [DEBUG] - calculate_total_price called with price=True, quantity=5
+2026-11-23 11:09:28 - [ERROR] - TypeError in calculate_total_price: Price and quantity must not be boolean values.
